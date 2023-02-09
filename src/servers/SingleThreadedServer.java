@@ -63,7 +63,7 @@ public class SingleThreadedServer implements Runnable {
         try {
             this.serverSocket.close();
         } catch (IOException e) {
-            throw new RuntimeException("Error closing server, a problem occured.", e);
+            throw new RuntimeException("Error closing server, a problem occurred.", e);
         }
     }
 
