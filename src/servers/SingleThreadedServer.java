@@ -44,9 +44,9 @@ public class SingleThreadedServer implements Runnable {
                 throw new RuntimeException(
                         "Error establishing client conncetion", e);
             }
-                try {
-                    processClientRequest(clientSocket);
-                } catch (Exception e) {
+            try {
+                processClientRequest(clientSocket);
+            } catch (Exception e) {
 
             }
         }
