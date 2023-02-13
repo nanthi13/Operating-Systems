@@ -37,28 +37,6 @@ public class SearchSimulator {
 
 
         System.out.println("Request processed: " + time2);
-//        InputStream  input  = clientSocket.getInputStream();
-//        OutputStream output = clientSocket.getOutputStream();
-//        long time1 = System.currentTimeMillis();
-//
-//        byte[] responseDocument = ("<html><body>" +
-//                "Singlethreaded Server: " +
-//                time1 +
-//                "</body></html>").getBytes("UTF-8");
-//
-//        byte[] responseHeader =
-//                ("HTTP/1.1 200 OK\r\n" +
-//                        "Content-Type: text/html; charset=UTF-8\r\n" +
-//                        "Content-Length: " + responseDocument.length +
-//                        "\r\n\r\n").getBytes("UTF-8");
-//
-//        long time2 = System.currentTimeMillis();
-//        output.write(responseHeader);
-//        output.write(responseDocument);
-//        output.close();
-//        input.close();
-//
-//        System.out.println("Request processed: " + time2);
     }
 
 
